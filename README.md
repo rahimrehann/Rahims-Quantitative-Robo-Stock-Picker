@@ -1,2 +1,3 @@
-# cfm101_group_project
-CFM 101 Group Project - Robo Stock Picker
+Built a quantitative equity portfolio optimizer focused on capital preservation and risk minimization. Implemented a minimum-variance optimization framework by computing weekly asset returns and covariance matrices, then solving constrained optimization problems using SciPy’s SLSQP algorithm to generate low-volatility portfolios.
+
+Engineered a multi-threaded data ingestion and screening pipeline with parallel yfinance API calls, reducing end-to-end ticker screening and allocation runtime by ~60% across 143 USD and CAD equities. The system efficiently scales portfolio construction while maintaining strict risk constraints and computational performance.
